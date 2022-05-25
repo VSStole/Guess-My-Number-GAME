@@ -1,0 +1,102 @@
+*{ padding: 0; margin: 0;}
+
+
+body{
+    background:linear-gradient(40deg,rgb(108, 108, 150) rgb(101, 169, 101));
+
+}
+
+#container{
+    background-color: rgb(114, 132, 162);
+    border-radius: 15px;
+    margin:100px;
+    width: 800px;
+    height: 500px;
+    box-shadow: 1rem 1rem 1rem rgb(84, 84, 84);
+}
+.between{
+    background-color:red;
+    float: right;
+    border: 2px solid black;
+    margin:1rem;
+    border-radius: 2rem;
+    font-family: Calibri;
+    margin-right: 20px;
+    padding: 2px 2px 2px 2px;
+
+}
+h1{
+    margin-left: 25%;
+    padding: 5px 2px 2px 20px;
+    font-size: 30px;
+    font-style: italic;
+    font-family: serif;
+    border :2px solid black;
+    height: 50px;
+    width: 300px;
+    background-color: rgb(20, 212, 148);
+    color: rgb(208, 254, 100);
+    border-radius: 2rem;
+    
+    }
+
+.number{
+    
+    
+    font-size: 50px;
+    margin: 2rem;
+    position: relative;
+    left: 18rem;
+    
+}
+ 
+.btn.again{
+    background-color: rgb(20, 212, 148);
+    margin:20px 20px 20px 20px;
+    
+}
+.left{
+    width: 20rem;
+    height: 60px;
+    background-color: rgb(20, 212, 148);
+    margin:3px;
+    border-right:3px;
+    border :2px solid black;
+    position: relative;
+    left: 7rem;
+    
+}
+
+.right{
+    text-decoration: underline;
+    background-color: rgb(20, 212, 148);
+    color: azure;
+    border :2px solid black;
+    border-radius: 2rem;
+    padding :5px 5px 5px 105px;
+    margin-left: 65%;
+    height: 100px;
+    width: 230px;
+    position: relative;
+    right:26rem;
+    font-size: 20px;
+
+    
+}
+.btn.check{
+    background-color: rgb(20, 212, 148);
+    margin-left: 90%;
+    height: 30px;
+    border :2px solid black;
+    position:relative;
+    left: 7rem;
+    bottom: 0.2rem;
+    
+}
+
+.guess{
+    margin-left: 400px;
+    height: 50px;
+    width: 100px;
+    border :2px solid black
+}
